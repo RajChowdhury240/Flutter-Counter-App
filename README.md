@@ -3,19 +3,15 @@
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
 
- 
  Just an Counter UI using Flutter
 
+# UI
+![android](./gif/App.gif?raw=true 'android')
 
 # Thank _You_!
 Please :star: this repo and share it with others
 
-# UI
-
-![android](./gif/App.gif?raw=true 'android')
-
-
-### Created
+### Created By
 
 * [Raj Chowdhury](https://github.com/Rajchowdhury420)
 
