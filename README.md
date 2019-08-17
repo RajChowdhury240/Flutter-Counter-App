@@ -1,0 +1,21 @@
+# Flutter Counter App
+<a href="https://stackoverflow.com/questions/tagged/flutter?sort=votes">
+   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
+</a>
+
+ 
+ Just an Counter UI using Flutter
+
+
+# Thank _You_!
+Please :star: this repo and share it with others
+
+# UI
+
+![android](./gif/App.gif?raw=true 'android')
+
+
+### Created
+
+* [Raj Chowdhury](https://github.com/Rajchowdhury420)
+
