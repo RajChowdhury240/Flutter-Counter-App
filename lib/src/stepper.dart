@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 
 
-/// the concept of the widget inspired
-/// from [Nikolay Kuchkarov](https://dribbble.com/shots/3368130-Stepper-Touch).
-/// i extended  the functionality to be more useful in real world applications
 class StepperTouch extends StatefulWidget {
   const StepperTouch({
     Key key,
@@ -191,3 +188,5 @@ class _Stepper2State extends State<StepperTouch>
     }
   }
 }
+
+// Done Project
