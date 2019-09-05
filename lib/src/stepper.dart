@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 
-
 class StepperTouch extends StatefulWidget {
   const StepperTouch({
     Key key,
