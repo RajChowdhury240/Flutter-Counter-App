@@ -9,6 +9,7 @@ class StepperTouch extends StatefulWidget {
     this.direction = Axis.horizontal,
     this.withSpring = true,
   }) : super(key: key);
+  
 
   /// the orientation of the stepper its horizontal or vertical.
   final Axis direction;
@@ -23,9 +24,11 @@ class StepperTouch extends StatefulWidget {
   /// defaults to true
   final bool withSpring;
 
+  
   @override
   _Stepper2State createState() => _Stepper2State();
 }
+
 
 class _Stepper2State extends State<StepperTouch>
     with SingleTickerProviderStateMixin {
@@ -35,6 +38,7 @@ class _Stepper2State extends State<StepperTouch>
   double _startAnimationPosX;
   double _startAnimationPosY;
 
+  
   @override
   void initState() {
     super.initState();
@@ -53,12 +57,14 @@ class _Stepper2State extends State<StepperTouch>
     }
   }
 
+  
   @override
   void dispose() {
     _controller?.dispose();
     super.dispose();
   }
 
+  
   @override
   void didUpdateWidget(oldWidget) {
     super.didUpdateWidget(oldWidget);
@@ -71,6 +77,7 @@ class _Stepper2State extends State<StepperTouch>
     }
   }
 
+  
   @override
   Widget build(BuildContext context) {
     return FittedBox(
@@ -131,6 +138,7 @@ class _Stepper2State extends State<StepperTouch>
     );
   }
 
+  
   double offsetFromGlobalPos(Offset globalPosition) {
     RenderBox box = context.findRenderObject() as RenderBox;
     Offset local = box.globalToLocal(globalPosition);
@@ -143,6 +151,7 @@ class _Stepper2State extends State<StepperTouch>
     }
   }
 
+  
   void _onPanStart(DragStartDetails details) {
     _controller.stop();
     _controller.value = offsetFromGlobalPos(details.globalPosition);
@@ -152,6 +161,7 @@ class _Stepper2State extends State<StepperTouch>
     _controller.value = offsetFromGlobalPos(details.globalPosition);
   }
 
+  
   void _onPanEnd(DragEndDetails details) {
     _controller.stop();
     bool isHor = widget.direction == Axis.horizontal;
