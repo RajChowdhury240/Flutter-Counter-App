@@ -6,7 +6,7 @@
  Just an Counter UI using Flutter
  
 # UI
-![android](./gif/App.gif?raw=true 'android')
+![Preview](./gif/App.gif?raw=true 'android')
 
 # Thank _You_!
 Please :star: this repo and share it with others
