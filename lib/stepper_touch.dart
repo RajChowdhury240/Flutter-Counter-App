@@ -6,6 +6,6 @@ library stepper_touch;
 export 'src/stepper.dart';
 
 
-var aquaticNames = animals
-    .where((animal) => animal.isAquatic)
-    .map((animal) => animal.name);
+var aquaticNames = steps
+    .where((steps) => steps.isAquatic)
+    .map((steps) => steps.name);
