@@ -1,9 +1,8 @@
-name: stepper_touch
+name: Counter App
 description: a flutter stepper widget with nice aniamtion
 version: 0.0.1
-author: Raouf Rahiche <rraouf30@gmail.com>
-homepage: https://github.com/Rahiche/stepper_touch
-
+author: Raj Chowdhury
+homepage: https://github.com/Rajchowdhury420
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
@@ -15,8 +14,4 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://www.dartlang.org/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
